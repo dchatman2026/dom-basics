@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Basics</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Basics</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DOM Manipulation Basics</h1>
+
+  <!-- Feature 1: Click Counter -->
+  <section>
+    <h2>1. Click Counter</h2>
+    <button id="counter-btn">Click Me!</button>
+    <p>Count: <span id="counter-display">0</span></p>
+  </section>
+
+  <hr>
+
+  <!-- Feature 2: Text Toggler -->
+  <section>
+    <h2>2. Text Toggler</h2>
+    <button id="toggle-btn">Toggle Text</button>
+    <p id="toggle-text">Now you see me!</p>
+  </section>
+
+  <hr>
+
+  <!-- Feature 3: Live Input Echo -->
+  <section>
+    <h2>3. Live Input Echo</h2>
+    <input type="text" id="echo-input" placeholder="Type something here...">
+    <p>Echo: <span id="echo-display"></span></p>
+  </section>
+
+  <hr>
+
+  <!-- Feature 4: Dynamic List -->
+  <section>
+    <h2>4. Dynamic List</h2>
+    <input type="text" id="list-input" placeholder="New item name...">
+    <button id="add-btn">Add Item</button>
+    <ul id="item-list">
+      <!-- New <li> items will be added here using JS -->
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
